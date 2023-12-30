@@ -1,0 +1,3 @@
+1. 「T1_T2_SOFR_rate.xlsx」來自Step 3中的「T1_T2_sigma_r_square_SOFR_rate.xlsx」，只是把“sigma_r_square_for_match”欄位刪除，目的是用於讓到時bootstrap sigma_s_square時可以對應到應該對應的SOFR futures rate。
+
+2. 估計sigma_r_square與sigma_s_square時使用的方法不同，詳請可以看code的最底部有詳細敘述。
